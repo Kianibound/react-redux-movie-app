@@ -1,0 +1,23 @@
+.movieList,
+.seriesList {
+  margin: 1.5 0px;
+  h2 {
+    color: #a1a1a1;
+    margin: 1rem 0;
+    font-weight: 600;
+  }
+  hr {
+    margin-bottom: 1rem;
+  }
+  h3 {
+    color: white;
+  }
+  // .moviesContainer,
+  // .seriesContainer {
+  //   display: grid;
+  //   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  //   grid-gap: 2rem;
+  //   margin-bottom: 1rem;
+  //   color: #d7d7d7;
+  // }
+}

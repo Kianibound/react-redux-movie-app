@@ -1,0 +1,35 @@
+.card-item {
+  background: rgb(0, 0, 84);
+  cursor: pointer;
+  transition: all 0.7s ease;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+  min-height: 450px;
+  height: 100%;
+  margin: 10px;
+  img {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+  }
+  &:hover {
+    transform: scale(1.1);
+    transition: all ease 0.3s;
+  }
+}
+.card-bottom {
+  padding: 20px;
+  .card-info {
+    color: whitesmoke;
+    h4 {
+      font-size: 2rem;
+      font-weight: 400;
+      margin-bottom: 1rem;
+    }
+  }
+}
